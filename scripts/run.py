@@ -27,8 +27,9 @@ def parse_input(text):
             continue
         
         # 解析键值对
-        if ':' in line or ':' in line:
-            key, value = line.split(':', 1)
+        if ':' in line or '：' in line:
+            normalized = line.replace('：', ':')
+            key, value = normalized.split(':', 1)
             key = key.strip()
             value = value.strip()
             

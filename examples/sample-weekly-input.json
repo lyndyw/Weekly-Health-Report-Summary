@@ -1,0 +1,22 @@
+{
+  "skill_name": "health-weekly-report",
+  "customer_name": "示例患者",
+  "week_number": 3,
+  "date_range": "2026-03-09 至 2026-03-15",
+  "monitoring_data": {
+    "fasting_glucose": [5.8, 6.1, 5.9, 6.3, 5.7, 6.0, 5.8],
+    "postprandial_glucose": [8.2, 9.1, 8.8, 10.4, 8.7, 9.0, 8.5],
+    "blood_pressure": [[128, 79], [132, 82], [130, 80], [129, 78], [134, 84], [127, 79], [128, 80]],
+    "weight": {
+      "before": 68.0,
+      "after": 67.4,
+      "last_week": 68.2
+    }
+  },
+  "lifestyle": {
+    "diet": "大多数时间按计划执行，周四晚餐主食偏多",
+    "exercise": "快走 5 天，每次 30 分钟",
+    "medication": "按时服药",
+    "symptoms": "轻度下肢水肿较前减轻"
+  }
+}
